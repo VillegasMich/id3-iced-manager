@@ -16,9 +16,11 @@ A cross-platform desktop application built with Rust and Iced for viewing and ma
   - Track Number
   - Comments
   - Duration
+- 🖼️ **Album Cover Art**: Display album artwork when available in ID3 tags
 - 📋 **Recent Files**: Quick access to your 5 most recently opened files
-- 💾 **Persistent State**: Recent files are saved and restored between sessions
-- 🎨 **Modern UI**: Clean, dark-themed interface built with Iced
+- 💾 **Persistent State**: Recent files and settings are saved and restored between sessions
+- 🎨 **Modern UI**: Clean interface built with Iced
+- ♿ **Accessibility**: Theme selection (light/dark) and zoom controls (50%-200%) for better usability
 
 ## Supported Audio Formats
 
@@ -109,10 +111,10 @@ cargo build --release
 ## TODO
 
 - [ ] **Add ID3 Tags**: Implement functionality to edit and save ID3 tags to audio files
-- [ ] **Show Cover if Available**: Display album artwork/cover image when present in ID3 tags
-- [ ] **Accessibility Options**: 
-  - [ ] Zoom controls for UI scaling
-  - [ ] Theme selection (light/dark/custom themes)
+- [x] **Show Cover if Available**: Display album artwork/cover image when present in ID3 tags
+- [x] **Accessibility Options**: 
+  - [x] Zoom controls for UI scaling (50% - 200%)
+  - [x] Theme selection (light/dark themes)
 
 ## Contributing
 
